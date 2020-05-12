@@ -13,4 +13,5 @@ body.background {
 
 h1{
 	color:var(--gradient);
+	background-image: linear-gradient(to var(--darkblue)var(--lighterblue), var(--primary-color), var(--rose));
 }
