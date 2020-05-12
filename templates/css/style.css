@@ -1,5 +1,9 @@
 @import 'variabele.css';
 
+* {
+	margin: 0;
+	padding:0;
+}
 body {
 	background: var(--black);
 }
@@ -10,8 +14,28 @@ body.background {
 	background-size: cover;
 	top: -20px;
 }
+/* header */
+div.header{
+	background-image: linear-gradient(var(--darkblue), var(--lighterblue), var(--primary-color), var(--rose));
+	height: 15vh;
+	border-radius: 0px 0px 110px 0px;
+
+}
+/*imagescontainer */
+div.imagescontainer{
+	margin: 10% 20%;
+}
+	img {
+		height: 120px;
+	}
+	img.wifi{
+		height:72px;
+	}
 
 h1{
-	color:var(--gradient);
-	background-image: linear-gradient(to var(--darkblue)var(--lighterblue), var(--primary-color), var(--rose));
+text-align:center;
+color:var(--white);
+/*66 pt Segoe UI*/
+padding:2%;
+font-size:40pt;
 }
