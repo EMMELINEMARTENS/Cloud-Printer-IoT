@@ -5,5 +5,5 @@ body {
 }
 
 body.background {
-	background-image: url('../../images/galaxy.gif');
+	background-image: url('../../images/galaxy.gif') no-repeat;
 }
