@@ -10,3 +10,7 @@ body.background {
 	background-size: cover;
 	top: -20px;
 }
+
+h1 {
+	background-image: linear-gradient(#9049BF, #482560);
+}
