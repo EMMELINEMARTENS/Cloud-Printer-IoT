@@ -33,18 +33,51 @@
 		</form>
 		<div class="optionsmaincontainer">
 		<form class="options">
-		
+		<div class="radiocontainer">
+				<input type="radio" id="kleur" name="printerkleurenpatroon" value="kleur"/>
+				<label for="kleur">kleur</label>
+		</div>
+		<div class="radiocontainer">
+			<input type="radio" id="grijswaarden" name="printerkleurenpatroon" value="grijswaarden"/>
+			<label for="grijswaarden">grijswaarden</label>
+		</div>
+		<div class="radiocontainer">
+			<input type="radio" id="zwart-wit" name="printerkleurenpatroon" value="zwart-wit"/>
+			<label for="zwart-zwit">zwart-wit</label>
+		</div>
 		</form>
 		<form class="options">
-		Test
-		</form>>
+		<div class="radiocontainer">
+			<input type="radio" id="enkelzijdig" name="afdrukkant" value="enkelzijdig"/>
+			<label for="enkelzijdig">enkelzijdig</label>
+		</div>
+		<div class="radiocontainer">
+			<input type="radio" id="dubbelzijdig" name="afdrukkant" value="dubbelzijdig"/>
+			<label for="dubbelzijdig">dubbelzijdig</label>
+		</div>
+		</form>
 		<form class="options">
-			TEST
+		<div class="radiocontainer">
+			<input type="radio" id="A2" name="paginaformaat" value="A2"/>
+			<label for="A2">A2</label>
+		</div>
+		<div class="radiocontainer">
+			<input type="radio" id="A3" name="paginaformaat" value="A3"/>
+			<label for="A3">A3</label>
+		</div>
+		<div class="radiocontainer">
+			<input type="radio" id="A4" name="paginaformaat" value="A4"/>
+			<label for="">A4</label>
+		</div>
+		<div class="radiocontainer">
+			<input type="radio" id="A5" name="paginaformaat" value="A5"/>
+			<label for="">A5</label>
+		</div>
 		</form>
 		<form class="copiescontainer">
 			<h4>Aantal</h4>
-
-			<button><img src="../images/printer.png" alt="printer" class="buttonimg"></button>
+			<input type="number" id="number" name="number" value="number"/>
+			<button type="submit"><img src="../images/printer.png" alt="printer" class="buttonimg"></button>
 		</form>
 		</div>
 
