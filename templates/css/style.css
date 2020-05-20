@@ -48,8 +48,7 @@ h1{
 	color: white;
 	font-weight: 400;
 }
-h1.succes {
-	
+
 /*printcontainer*/
 div.printcontainer {
 	background-color:var(--white);
