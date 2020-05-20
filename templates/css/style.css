@@ -49,8 +49,7 @@ body {
 	}
 
 	h1 {
-		color: var(--gradient);
-		background-image: linear-gradient(var(--darkblue), var(--lighterblue), var(--primary-color), var(--rose));
+		
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		color: white;
 		font-weight: 400;
@@ -104,6 +103,7 @@ body {
 	form.options {
 		height: 15vh;
 		width: 30%;
+		background-color:blue;
 	}
 
 	button {
@@ -165,7 +165,6 @@ body {
 
 	h1 {
 		color: var(--gradient);
-		background-image: linear-gradient(var(--darkblue), var(--lighterblue), var(--primary-color), var(--rose));
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		color: white;
 		font-weight: 400;
@@ -219,6 +218,7 @@ body {
 	form.options {
 		height: 15vh;
 		width: 30%;
+		
 	}
 
 	button {
