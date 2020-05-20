@@ -41,14 +41,12 @@ div.imagescontainer{
 		width: 5%;
 	}
 
-<<<<<<< HEAD
 h1{
 	color:var(--gradient);
 	background-image: linear-gradient( var(--darkblue), var(--lighterblue), var(--primary-color), var(--rose));
 }
 h1.succes {
 	
-=======
 /*printcontainer*/
 div.printcontainer {
 	background-color:var(--white);
@@ -108,5 +106,4 @@ button{
 }
 img.buttonimg{
 	height: 2vh;
->>>>>>> 8b51680f93fea790cb4364ae37a0c39659cad56b
 }
