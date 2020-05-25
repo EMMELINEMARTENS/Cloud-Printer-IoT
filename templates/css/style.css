@@ -131,7 +131,12 @@ body {
 		
 		margin-top: 5%;
 	}
-
+	div.succes{
+		height: 2vh;
+		position: relative;
+		display: flex;
+		align-self: center;
+	}
 }
 
 @media only screen and (max-width: 3840px) {
@@ -249,6 +254,19 @@ body {
 	img.buttonimg {
 		height: 2vh;
 		width: 70%;
+	}
+
+	div.succes{
+		float: left;
+		padding: .375em;
+		vertical-align: baseline;
+	}
+	div.succes.img {
+		height: 25px;
+	}
+	div.succescontainer{
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		color: var(--white);
 	}
 }
 
