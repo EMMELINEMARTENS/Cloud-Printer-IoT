@@ -50,6 +50,13 @@ body {
 		height: 72px;
 		width: 5%;
 	}
+	img.houseimg{
+		object-fit: cover;
+	}
+	img.buildingimg{
+		object-fit:cover;
+
+	}
 
 	h1 {
 
@@ -88,12 +95,24 @@ body {
 	.file_p {
 		margin-left: 30%;
 		padding-top: 4%;
+		
 	}
 
-	.tekst {
+	p.tekst {
 		margin-left: 30%;
-		color: var(--white);
+		color:var(--lighterblue);
 		margin-top: -3%;
+		height: 3vh;
+
+	}
+	#number {
+		background-color: var(--file);
+		color:var(--white);
+		border:none;
+		border-radius : 33px;
+		width: 20%;
+		height: 3vh;
+		text-align: center;
 	}
 
 	.optionsmaincontainer {
@@ -106,12 +125,13 @@ body {
 		height: 15vh;
 		width: 30%;
 		margin-top: 1%;
-
+		
+		
 	}
 
-	input.purpleradio {
+	input.purpleradio{
 		margin-left: 2%;
-		border: solid 2px var(--primary-color);
+		
 	}
 
 	button {
