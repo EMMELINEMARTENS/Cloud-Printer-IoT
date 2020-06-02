@@ -49,6 +49,13 @@ body {
 		height: 72px;
 		width: 5%;
 	}
+	img.houseimg{
+		object-fit: cover;
+	}
+	img.buildingimg{
+		object-fit:cover;
+
+	}
 
 	h1 {
 		
