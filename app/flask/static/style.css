@@ -1,0 +1,304 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: var(--black);
+}
+
+
+@media only screen and (max-width: 2100px) {
+	body.background {
+		background-image: url('./images/galaxy.gif/');
+		background-repeat: no-repeat;
+		background-size: cover;
+		top: -20px;
+	}
+
+	/* header */
+	div.header {
+		background-image: linear-gradient(var(--darkblue), var(--lighterblue), var(--primary-color), var(--rose));
+		height: 15vh;
+		border-radius: 0px 0px 110px 0px;
+
+	}
+
+	h1 {
+		text-align: center;
+		color: var(--white);
+		/*66 pt Segoe UI*/
+		padding: 2%;
+		font-size: 40pt;
+	}
+
+	/*imagescontainer */
+	div.imagescontainer {
+		margin: 10% 18%;
+	}
+
+	img {
+		height: 15vh;
+		width: 15%;
+		object-fit: scale-down;
+
+	}
+
+	img.wifi {
+		height: 72px;
+		width: 5%;
+	}
+	img.houseimg{
+		object-fit: cover;
+	}
+	img.buildingimg{
+		object-fit:cover;
+
+	}
+
+	h1 {
+
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		color: white;
+		font-weight: 400;
+	}
+
+	/*printcontainer*/
+	div.printcontainer {
+		background-color: var(--white);
+		height: 30vh;
+		margin: -5% 15%;
+		border-radius: 105px 105px 105px 105px;
+	}
+
+	div.title_upload {
+		position: relative;
+		top: 40px;
+		margin: 0px 40px;
+		height: 4vh;
+		background-color: var(--black);
+		border-radius: 23px 23px;
+	}
+
+	div.file_upload {
+		position: relative;
+		top: 0px;
+		height: 4vh;
+		width: 200px;
+		background-color: var(--file);
+		color: var(--white);
+		border-radius: 23px 23px;
+	}
+
+	.file_p {
+		margin-left: 30%;
+		padding-top: 4%;
+		
+	}
+
+	p.tekst {
+		margin-left: 30%;
+		color:var(--lighterblue);
+		margin-top: -3%;
+		height: 3vh;
+
+	}
+	#number {
+		background-color: var(--file);
+		color:var(--white);
+		border:none;
+		border-radius : 33px;
+		width: 20%;
+		height: 3vh;
+		text-align: center;
+	}
+
+	.optionsmaincontainer {
+		display: flex;
+		margin: 6% 5%;
+		height: 15vh;
+	}
+
+	form.options {
+		height: 15vh;
+		width: 30%;
+		margin-top: 1%;
+		
+		
+	}
+
+	input.purpleradio{
+		margin-left: 2%;
+		
+	}
+
+	button {
+		background-color: var(--black);
+		border-radius: 100%;
+		height: 2vh;
+		width: 1%;
+		position: relative;
+		top: 80px;
+		left: 80px;
+
+	}
+
+	img.buttonimg {
+		height: 2vh;
+		width: 40%;
+	}
+
+	div.radiocontainer {
+
+		margin-top: 5%;
+	}
+
+	div.succes {
+		height: 2vh;
+		position: relative;
+		display: flex;
+		align-self: center;
+	}
+}
+
+@media only screen and (min-width: 3840px) {
+	body.background {
+		background-image: url('./images/galaxy.gif/');
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+
+	/* header */
+	div.header {
+		background-image: linear-gradient(var(--darkblue), var(--lighterblue), var(--primary-color), var(--rose));
+		height: 15vh;
+		border-radius: 0px 0px 110px 0px;
+
+	}
+
+	h1 {
+		text-align: center;
+		color: var(--white);
+		/*66 pt Segoe UI*/
+		padding: 2%;
+		font-size: 40pt;
+	}
+
+	/*imagescontainer */
+	div.imagescontainer {
+		margin: 10% 18%;
+	}
+
+	img {
+		height: 15vh;
+		width: 15%;
+		object-fit: scale-down;
+	}
+
+	img.wifi {
+		height: 72px;
+		width: 5%;
+	}
+
+	h1 {
+		color: var(--gradient);
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		color: white;
+		font-weight: 400;
+	}
+
+	/*printcontainer*/
+	div.printcontainer {
+		background-color: var(--white);
+		height: 30vh;
+		margin: -5% 15%;
+		border-radius: 105px 105px 105px 105px;
+	}
+
+	div.title_upload {
+		position: relative;
+		top: 40px;
+		margin: 0px 40px;
+		height: 4vh;
+		background-color: var(--black);
+		border-radius: 23px 23px;
+	}
+
+	div.file_upload {
+		position: relative;
+		top: 0px;
+		height: 4vh;
+		width: 200px;
+		background-color: var(--file);
+		color: var(--white);
+		border-radius: 23px 23px;
+	}
+
+	.file_p {
+		margin-left: 30%;
+		padding-top: 4%;
+	}
+
+	.tekst {
+		margin-left: 30%;
+		color: var(--white);
+		margin-top: -3%;
+	}
+
+	.optionsmaincontainer {
+		display: flex;
+		margin: 6% 5%;
+		height: 15vh;
+	}
+
+	form.options {
+		height: 15vh;
+		width: 30%;
+
+
+	}
+
+	input.purpleradio {
+		margin-left: 2%;
+		border: solid 2px var(--primary-color);
+	}
+
+	button {
+		background-color: var(--black);
+		border-radius: 100%;
+		width: 15%;
+		height: 4vh;
+		margin-top: -30%;
+		margin-left: -1%;
+
+	}
+
+	img.buttonimg {
+		height: 2vh;
+		width: 70%;
+	}
+
+	div.succes {
+		float: left;
+		padding: .375em;
+		vertical-align: baseline;
+	}
+
+	div.succes.img {
+		height: 25px;
+	}
+
+	div.succescontainer {
+		display: flex;
+
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		color: var(--white);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+
+	}
+}
