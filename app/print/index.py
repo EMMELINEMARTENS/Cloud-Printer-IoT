@@ -32,4 +32,4 @@ for attribute in ("printer-uri-supported",
 answer = cups.doRequest(request)    
 
 # Print the answer as a string of text
-print answer
+#print answer
