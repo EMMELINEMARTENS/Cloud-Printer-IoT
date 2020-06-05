@@ -8,4 +8,5 @@ XD-link: https://xd.adobe.com/view/3e45cc3f-898a-4c4a-4f59-7097338e04d9-4874/
 printer: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
 printer cups: https://www.howtogeek.com/169679/how-to-add-a-printer-to-your-raspberry-pi-or-other-linux-computer/
 Google Print: https://www.howtogeek.com/169566/how-to-turn-a-raspberry-pi-into-a-google-cloud-print-server/
+server connect printer:https://circuitdigest.com/microcontroller-projects/raspberry-pi-print-server
 website:
