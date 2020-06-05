@@ -12,8 +12,8 @@ from pkipplib import pkipplib
 cups = pkipplib.CUPS()
 
 # High level API : retrieve info about job 3 :
-answer = cups.getJobAttributes(3)
- print answer.job["document-format"]
+#answer = cups.getJobAttributes(3)
+#print answer.job["document-format"]
 # That's all folks !
 
 # Lower level API :
