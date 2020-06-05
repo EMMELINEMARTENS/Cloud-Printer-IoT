@@ -10,4 +10,8 @@ printer: https://www.raspberrypi.org/documentation/configuration/wireless/wirele
 printer cups: https://www.howtogeek.com/169679/how-to-add-a-printer-to-your-raspberry-pi-or-other-linux-computer/
 Google Print: https://www.howtogeek.com/169566/how-to-turn-a-raspberry-pi-into-a-google-cloud-print-server/
 
+
+
+server connect printer:https://circuitdigest.com/microcontroller-projects/raspberry-pi-print-server
+
 website:
