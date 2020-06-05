@@ -9,4 +9,8 @@ printer: https://www.raspberrypi.org/documentation/configuration/wireless/wirele
 printer cups: https://www.howtogeek.com/169679/how-to-add-a-printer-to-your-raspberry-pi-or-other-linux-computer/
 Google Print: https://www.howtogeek.com/169566/how-to-turn-a-raspberry-pi-into-a-google-cloud-print-server/
 server connect printer:https://circuitdigest.com/microcontroller-projects/raspberry-pi-print-server
+pkipplib: http://www.pykota.com/software/pkipplib/ 
+cups: https://www.cups.org/doc/translation.html?fbclid=IwAR3RjffOWiDtFr264V3bbZBG_OxolIR9ySXOGj0wqUstmOTFXBLvQk4ENkc
+      https://stuff.mit.edu/afs/athena/astaff/project/opssrc/cups/cups-1.4.4/doc/help/api-overview.html
+          
 website:
