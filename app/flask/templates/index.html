@@ -31,7 +31,8 @@
 		<form enctype= "multipart/form-data" action= "save_file.py" method= "post">
 		<div class="title_upload">
 			<div class="file_upload"><p class="file_p">File upload</p></div>
-			<input class="tekst" value="" id="file" type="hidden"/>
+			<p class ="tekst" id="file_name" type="text"></p>
+			<input class="tekst" id="file" type="file" style="visibility:hidden"/>
 			
 		</div>
 		</form>
@@ -86,6 +87,6 @@
 		</div>
 
 	</div>
-	<script type="text/javascript" src="{{ url_for('static',filename='index.js')}}"></script>
+	<script type="text/javascript" src="{{ url_for('static',filename='js/index.js')}}"></script>
 </body>
 </html>
