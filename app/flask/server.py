@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0,'../app/print')
+sys.path.insert(0,'../app/js')
 from flask import Flask, render_template,request
 
 #app

@@ -6,6 +6,8 @@
 	<title>Cloud Printing</title>
 	<link rel="stylesheet" href="../static/variabele.css/">
 	<link rel="stylesheet" href="../static/style.css/">
+	<script src="https://www.google.com/cloudprint/client/cpgadget.js"></script>
+	
 </head>
 <body>
 	<div class="header">
@@ -29,7 +31,8 @@
 		<form enctype= "multipart/form-data" action= "save_file.py" method= "post">
 		<div class="title_upload">
 			<div class="file_upload"><p class="file_p">File upload</p></div>
-			<p class="tekst">lorem_ipsum.jpg</p>
+			<input class="tekst" value="hello" id="file"/>
+			
 		</div>
 		</form>
 		<div class="optionsmaincontainer">
@@ -78,10 +81,11 @@
 		<form class="copiescontainer">
 			<h4>Aantal</h4>
 			<input type="number" id="number" name="number" />
-			<button type="submit" href="/succes"><img src="../static/images/printer.png" alt="printer" class="buttonimg"></button>
+			<button type="submit" href="/succes" id="print_button_container"><img src="../static/images/printer.png" alt="printer" class="buttonimg"></button>
 		</form>
 		</div>
 
 	</div>
+	<script type="text/javascript" src="{{ url_for('static',filename='index.js')}}"></script>
 </body>
 </html>
