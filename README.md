@@ -17,6 +17,8 @@ server connect printer:https://circuitdigest.com/microcontroller-projects/raspbe
 pkipplib: http://www.pykota.com/software/pkipplib/ 
 cups: https://www.cups.org/doc/translation.html?fbclid=IwAR3RjffOWiDtFr264V3bbZBG_OxolIR9ySXOGj0wqUstmOTFXBLvQk4ENkc
       https://stuff.mit.edu/afs/athena/astaff/project/opssrc/cups/cups-1.4.4/doc/help/api-overview.html
+      
+Google: https://developers.google.com/cloud-print/docs/gadget
 website:
 
 https://github.com/apple/cups
