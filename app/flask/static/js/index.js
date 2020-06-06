@@ -9,7 +9,7 @@ file_upload.addEventListener('click', (e) => {
     
     console.log(file.value); 
     console.log(file_name.value);
-    return file_name.innerText = file.value;
+    file_name.innerText = file.value;
   }
 },false);
 window.onload = function() {
