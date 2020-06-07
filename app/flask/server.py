@@ -36,6 +36,8 @@ def allowed_files(filename):
 def printcommando():
 
     if request.method == "POST":
+        
+
         if request.files:
 
             file = request.files["file"]
@@ -59,8 +61,18 @@ def printcommando():
             file.save(os.path.join(app.config["IMAGE_UPLOADS"], filename))
 
             print("file is saved")
+            
+            req = request.form
+
+            printerkleurenpatroon = req.get("printerkleurenpatroon")
+            afdrukkant = request.form["afdrukkant"]
+            # paginaformaat = request.form["paginaformaat"]
+
+            print(printerkleurenpatroon,afdrukkant)
 
             return redirect(request.url)
+
+         
 
     return render_template('index.html')
 
