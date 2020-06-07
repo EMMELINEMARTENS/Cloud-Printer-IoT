@@ -36,8 +36,8 @@
 					<p class="file_p">File upload</p>
 				</div>
 				<p class="tekst" id="file_name"></p>
-				<input oninput="filesize(this)" class="tekst" id="file" name="file" type="file"
-					style="visibility:hidden" />
+				<input oninput="getfile(this)" class="tekst" id="file" name="file" type="file"
+					 />
 
 
 			</div>
@@ -70,19 +70,19 @@
 				</div>
 				<div class="options">
 					<div class="radiocontainer">
-						<input type="radio" id="A2" name="paginaformaat" value="A2" />
+						<input type="radio" id="A2" name="formaat" value="A2" />
 						<label for="A2">A2</label>
 					</div>
 					<div class="radiocontainer">
-						<input type="radio" id="A3" name="paginaformaat" value="A3" />
+						<input type="radio" id="A3" name="formaat" value="A3" />
 						<label for="A3">A3</label>
 					</div>
 					<div class="radiocontainer">
-						<input type="radio" id="A4" name="paginaformaat" value="A4" />
+						<input type="radio" id="A4" name="formaat" value="A4" />
 						<label for="A4">A4</label>
 					</div>
 					<div class="radiocontainer">
-						<input type="radio" id="A5" name="paginaformaat" value="A5" />
+						<input type="radio" id="A5" name="formaat" value="A5" />
 						<label for="A5">A5</label>
 					</div>
 			</div>
@@ -99,32 +99,37 @@
 	<!--<script type="text/javascript" src="{{url_for('static',filename='js/index.js')}}"></script>-->
 	<script>
 		const file = document.getElementById('file');
+		
 
 		const file_name = document.getElementById('file_name');
 
-		const file_upload = document.querySelector('.file_upload');
+		const file_upload = document.querySelector(".file_upload");
 
 
-		function filesize(elem) {
+		function getfile(elem) {
+			const filename = elem.files[0].name;
+			console.log(elem.files[0])
 
 			document.cookie = `filesize${elem.files[0].size}`;
+			return filename;
 		}
 		file_upload.addEventListener('click', (e) => {
+			
 			if (file) {
-
+	
 				file.click();
-
-				console.log(file.value);
-				console.log(file_name.value);
-				file_name.innerText = file.value;
+				
+				
 			}
 		}, false);
-		window.onload = function () {
+		window.onload = function (filename) {
+
 
 			var gadget = new cloudprint.Gadget();
 			gadget.setPrintButton(
-				cloudprint.Gadget.createDefaultPrintButton("print_button_container")); // div id to contain the button
-			gadget.setPrintDocument("[file.value]", "[document title]", "[document content]", "[encoding] (optional)");
+				document.getElementById('print_button_container')); // div id to contain the button
+			gadget.setPrintDocument("url", `${filename}`, `http://127.0.0.2:8000/succes/${filename}`);
+			gadget.openPrintDialog();
 		}
 	</script>
 </body>
