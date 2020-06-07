@@ -1,6 +1,6 @@
 import sys
 sys.path.insert(0,'../app/print')
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect,send_from_directory, abort
 import os 
 
 #security 
@@ -16,6 +16,7 @@ app.config["IMAGE_UPLOADS"] = "/home/pi/Desktop/python/Cloud-Printer-IoT/app/fla
 
 #extentions
 app.config["ALLOWED_EXTENSIONS"]=["PNG","JPG","JPEG","PDF","TXT"]
+
 
 #function to check extebtions files
 def allowed_files(filename):
@@ -63,9 +64,42 @@ def printcommando():
 
     return render_template('index.html')
 
+
+"""
+string:
+int:
+float:
+path:
+uuid:
+"""
+
+@app.route('/succes/<string:filename>')
+
+#get the files
+def get_file(filename):
+
+    #try and except -> send a file 
+    try:
+        return send_from_directory(app.config["IMAGE_UPLOADS"],filename=filename, as_attachment=False)
+
+    except FileNotFoundError:
+        abort(404)
+
+
+
+
 @app.route('/succes', methods=['GET','POST'])
 def succes():
     return render_template('succes.html')
+
+
+
+
+
+
+  
+
+
 
 
 
