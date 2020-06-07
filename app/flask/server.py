@@ -15,7 +15,7 @@ app = Flask(__name__)
 app.config["IMAGE_UPLOADS"] = "/home/pi/Desktop/python/Cloud-Printer-IoT/app/flask/static/images/uploads"
 
 #extentions
-app.config["ALLOWED_EXTENSIONS"]=["PNG","JPG","JPEG","PDF","TXT"]
+app.config["ALLOWED_EXTENSIONS"]=["PNG","JPG","JPEG","PDF","TXT", "DOC", "DOCX"]
 
 
 #function to check extebtions files
