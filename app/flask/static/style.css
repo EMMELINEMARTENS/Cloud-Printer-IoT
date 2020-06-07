@@ -110,6 +110,8 @@ body {
 
 	.optionsmaincontainer {
 		display: flex;
+		justify-content: space-around;
+
 		margin: 6% 5%;
 		height: 15vh;
 	}
@@ -221,7 +223,6 @@ div.file_upload {
 	/*printcontainer*/
 	div.printcontainer {
 		display: flex;
-		justify-content: space-between;
 		background-color: var(--white);
 		height: 30vh;
 		margin: -5% 15%;
@@ -251,6 +252,8 @@ div.file_upload {
 
 	.optionsmaincontainer {
 		display: flex;
+		justify-content: space-around;
+		flex:2;
 		margin: 6% 5%;
 		height: 15vh;
 	}
