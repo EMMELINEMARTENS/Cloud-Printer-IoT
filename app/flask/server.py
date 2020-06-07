@@ -58,7 +58,7 @@ def printcommando():
             
             file.save(os.path.join(app.config["IMAGE_UPLOADS"], filename))
 
-            print("Image is saved")
+            print("file is saved")
 
             return redirect(request.url)
 
