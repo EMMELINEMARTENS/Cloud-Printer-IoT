@@ -9,6 +9,7 @@ from werkzeug.utils import secure_filename
 
 #app
 app = Flask(__name__)
+REPO_NAME = ""
 
 #config path
 #/home/pi/Desktop/python/Cloud-Printer-IoT/app/flask/static/images/uploads
