@@ -66,9 +66,9 @@ def printcommando():
 
             printerkleurenpatroon = req.get("printerkleurenpatroon")
             afdrukkant = request.form["afdrukkant"]
-            # paginaformaat = request.form["paginaformaat"]
+            formaat = request.form["formaat"]
 
-            print(printerkleurenpatroon,afdrukkant)
+            print(printerkleurenpatroon,afdrukkant,formaat)
 
             return redirect(request.url)
 
