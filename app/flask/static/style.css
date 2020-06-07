@@ -67,6 +67,8 @@ body {
 
 	/*printcontainer*/
 	div.printcontainer {
+		display: flex;
+		justify-content: space-evenly;
 		background-color: var(--white);
 		height: 30vh;
 		margin: -5% 15%;
@@ -112,7 +114,7 @@ body {
 		height: 15vh;
 	}
 
-	form.options {
+	div.options {
 		height: 15vh;
 		width: 30%;
 		margin-top: 1%;
@@ -154,6 +156,11 @@ div.file_upload {
 	div.radiocontainer {
 
 		margin-top: 5%;
+	}
+
+	div.numbercontainer {
+		display: flex;
+
 	}
 
 	div.succes {
@@ -213,6 +220,8 @@ div.file_upload {
 
 	/*printcontainer*/
 	div.printcontainer {
+		display: flex;
+		justify-content: space-between;
 		background-color: var(--white);
 		height: 30vh;
 		margin: -5% 15%;
@@ -246,7 +255,7 @@ div.file_upload {
 		height: 15vh;
 	}
 
-	form.options {
+	div.options {
 		height: 15vh;
 		width: 30%;
 
