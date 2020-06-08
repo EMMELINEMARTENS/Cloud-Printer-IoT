@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cloud-iot-printer",
+  "private_key_id": "ef71b17fb72261fe4f36bc9a86b74f122f9e29ee",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDnWIgkCzuP6pa+\nAbji01a7cDbOPmgduGWluerOF1ms4QUXLo/dBhHvHGx4OPKfHweeQJvoNOCFmCFK\n44+HFIJu1tLcvNx7dRFnkpX+uSAkD8W/yqVYVA98rbNRlBl8UDMhMZG1tHcDOWhX\nqD7VfeMIQTGffKQCY5AwbSDtjBoo9kDv/w3NAw+ajhC7shea8H6qb4eMUXwotRJL\nmygu/E551LosifchXxsN/J/957UXVcuAqqqXwespNXk3PG5bPPohc6ZwHoO9R1eT\nWbE0yhGSbjp3dv7YDqDP9rg9Tl43Mq93KkJNJEJAx8LUn0AHI58XzWTnuhNQW9dG\nAMBCa+xdAgMBAAECggEAANSD/zZycG9D5Yr7CgapHS4SEZu5Yus/o3XEfm3TWrf0\np+MjuAQmuf1s9Dd8GLm98hbtmEqMSF5wjCS/O0RbEsu+4PTlM6TgEEeUizVIhL3x\nFIxFG0kzRFwZNHXmwNfxfwZ/AoW9wZYJ+6U1Ey4K9ljJiqF3XdzT7nXjHtxtrETy\n3S0vvE0TR4YCcjeSHAmhWsIBvFa2tnWLb1qf4/wYbb9mySqzMjZILU1lujL1fsrA\njc2v7b16A3xO1n24awJTisBONqJvDjbJ1Xqjl30Gdmu+w1vgz0yCmOOBiZzzCoBh\n8bvEl54Q5C1BKVprLk+qwuvHtnDMMaef54/UOrxa0QKBgQD4EU7JF7ZB2TRU5AU/\ncKJ77V2caF2Jzp1aOwxCZTvBrbyJazRNJU32PzkUWBzU+ZnBUt5om7BnRfkDNeMe\nH5N6+OqfRfc9A2pXN6BCFjG4EZaP3Dlclb4s2aH1K2xO8Jihcy5lBNOyqouUl5CW\nfDDHXw/Ya/7cz1SoO+woBPBitQKBgQDuvla8pecdS9THBqXGoT6GZfPO0uh14hFN\nfkJuGwx7jPWumCpFBeNcxz6GGYZDoV2uftEVy13Nlww1/0osD07oH3LAG9drwjKV\nv4qMMPlJmJC1MpUU6ZvcNs7yHMh90jSximAF3dLRuf/wnaxKCnqn6MZLG+yY5EmF\n7G8swxskCQKBgCJVyvDcflaI6MxjLzLDtUmv5ggTDfdYCMGHcL/z4RyCnpjqpLeU\n1UCjKZReScdUsOpoPO5/th/lOH0wRTpTJoeb0mWvOnRQd7SQt3bOOZ1/mbZZxfrB\noyv0B422r+wRMx8NoTtMOrz9DArKG7IoiFvgFYJgGEuZyt7qRFqZrGgNAoGAcxBl\neXJ0GxiLKok3qK3aFqhYg1v/EaGtOS4bEjoTIBDl8AoChVW7KOIWbkcrALlrD0ir\nuNdVFFsyVWv+8ZFHNHTDt3czsgncm3O/cKXB4AiZ5drFI1kb91yrDOF2d72yC8dn\nVCx/CPmeMverK9w1FWwI9fY1Z9LO5K75PheioxECgYEAuJKpmbYPZCth7aleZY9K\nFyw/RimiclrOmLdL2ScNGDyMvGXqP0R6mqXH2GuNNEDYQN3WlVbvDDvZFsFdZNH4\nOY8EAvunUIp7Ja1R65YquXrrbhCrP7lLh0MUqIrnhD2ETzLmQ2B2IBBupac6rd/h\nn/vKptrIEaFSY2cOUMgmfG8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-8fpms@cloud-iot-printer.iam.gserviceaccount.com",
+  "client_id": "100490612143223726169",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-8fpms%40cloud-iot-printer.iam.gserviceaccount.com"
+}
