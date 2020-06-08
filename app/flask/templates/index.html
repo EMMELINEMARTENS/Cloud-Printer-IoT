@@ -133,8 +133,8 @@
 			var gadget = new cloudprint.Gadget();
 			gadget.setPrintButton(
 				document.getElementById('print_button_container')); // div id to contain the button
-			// gadget.setPrintDocument("url", `${filename}`, `http://127.0.0.2:8000/succes/${filename}`);
-			gadget.setPrintDocument("google.drive", `${filename}`, base64EncodedJpg, "base64");
+			gadget.setPrintDocument("url", `${filename}`, `http://127.0.0.2:8000/succes/${filename}`);
+			// gadget.setPrintDocument("google.drive", `${filename}`, base64EncodedJpg, "base64");
 			
 			gadget.openPrintDialog();
 		}
