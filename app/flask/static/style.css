@@ -67,8 +67,7 @@ body {
 
 	/*printcontainer*/
 	div.printcontainer {
-		display: flex; 
-		justify-content: space-between;
+		
 		background-color: var(--white);
 		height: 30vh;
 		margin: -5% 15%;
@@ -109,6 +108,7 @@ body {
 	}
 
 	.optionsmaincontainer {
+		display: flex;
 		margin: 6% 5%;
 		height: 15vh;
 	}
