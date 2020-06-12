@@ -1,5 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAL-8uA-ewU6UJb77h6RD1tz9Xk9mjwKi0",
+    apiKey: "",
     authDomain: "cloud-iot-printer.firebaseapp.com",
     databaseURL: "https://cloud-iot-printer.firebaseio.com",
     projectId: "cloud-iot-printer",
