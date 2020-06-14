@@ -86,7 +86,7 @@ pyOpenSSL==19.0.0
 pyserial==3.4
 python-dateutil==1.5
 pytz==2020.1
-pyxdg==0.25
+pyxdg==0.26
 rainbowhat==0.1.0
 requests==2.21.0
 requests-oauthlib==1.0.0
