@@ -307,12 +307,14 @@ div.file_upload {
 
 	div.succescontainer {
 		display: flex;
-
+justify-content: center;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		color: var(--white);
 		position: absolute;
+
 		top: 50%;
 		left: 50%;
 
 	}
+	
 }
