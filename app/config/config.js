@@ -1,12 +1,12 @@
 const firebaseConfig = {
-    apiKey: "",
-    authDomain: "cloud-iot-printer.firebaseapp.com",
-    databaseURL: "https://cloud-iot-printer.firebaseio.com",
-    projectId: "cloud-iot-printer",
-    storageBucket: "cloud-iot-printer.appspot.com",
-    messagingSenderId: "22985488114",
-    appId: "1:22985488114:web:0b47e88c0e405acf14826b",
-    measurementId: "G-Y2502MRWM6"
+    apiKey: process.env.CLOUD_APIKEY,
+    authDomain: process.env.CLOUD_AUTH_DOMAIN,
+    databaseURL: process.env.CLOUD_DATABASE_URL,
+    projectId: process.env.CLOUD_PROJECT_ID,
+    storageBucket: process.env.CLOUD_STORAGE_BUCKET,
+    messagingSenderId: process.env.CLOUD_MESSAGING_SENDER_ID,
+    appId: process.env.CLOUD_APP_ID,
+    measurementId: process.env.CLOUD_MESSUREMENT_ID
   };
 
   export default firebaseConfig;
